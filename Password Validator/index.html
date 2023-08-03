@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <form onsubmit="return passValidator()">
+            <label for="Password">Password</label> <br>
+            <input type="password" id="password" value="" placeholder="Enter a password"> <br>
+            <label for="Confirm_Password">Confirm Password</label> <br>
+            <input type="password" id="Confirm_Password" value="" placeholder="Retype your Password"> <br>
+            <h4 id="message"></h4>
+            <input type="submit" id="submit_btn">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
